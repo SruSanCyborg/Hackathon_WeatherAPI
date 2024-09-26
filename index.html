@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="container">
+            <h1>Weather App</h1>
+            <form id="weatherForm">
+                <input type="text" id="cityInput" placeholder="Enter city name">
+                <button type="submit">Get Weather</button>
+            </form>
+            <div id="weatherData">
+                <h2 class="city"></h2>
+                <div class="weather-box">
+                    <div class="weather-icon">
+                        <i class="fas fa-thermometer-half"></i>
+                    </div>
+                    <p class="temperature"></p>
+                </div>
+                <div class="weather-box">
+                    <div class="weather-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <p class="humidity"></p>
+                </div>
+                <div class="weather-box"> 
+                    <div class="weather-icon">
+                        <i class="fas fa-gauge-high"></i>
+                    </div>
+                    <p class="pressure"></p>
+                </div>
+                <div class="weather-box">
+                    <div class="weather-icon">
+                        <i class="fas fa-cloud-sun-rain"></i>
+                    </div>
+                    <p class="description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
